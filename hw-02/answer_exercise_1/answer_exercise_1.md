@@ -34,7 +34,7 @@ k apply -f nginx-pod.yml
 k get pods --show-labels
 ```
 
-#imagen1
+![Respueta 1 - 1](https://user-images.githubusercontent.com/10359307/142750757-36d35fb3-8481-4239-ae21-286146b3f311.png)
 
 3. Ver las ultimas 100 líneas del log de la aplicación.
 
@@ -48,7 +48,7 @@ k logs --tail=100 nginx-pod
 k get pods -o wide
 ```
 
-#imagen2y3
+![Respueta 1 - 2y3](https://user-images.githubusercontent.com/10359307/142750766-579171db-a59c-4d3f-b3a1-0eabc0060dc4.png)
 
 5. Comando para entrar dentro del `Pod`.
 
@@ -63,7 +63,7 @@ k exec -it nginx-pod -- sh
 k port-forward nginx-pod 8080:80
 ```
 
-#imagen4y5
+![Respueta 1 - 4y5](https://user-images.githubusercontent.com/10359307/142750773-9f707d67-9b22-4baa-859b-01ed92029779.png)
 
 7. QoS del `Pod`
 
@@ -71,3 +71,6 @@ k port-forward nginx-pod 8080:80
 # El resultado es Guaranteed porque tanto el cpu como la memoria tienen límites iguales
 k describe pod nginx-pod | grep QoS
 ```
+
+![Respueta 1 - 6](https://user-images.githubusercontent.com/10359307/142750779-e75a8b3b-a0cb-4a79-9101-dca127837363.png)
+
