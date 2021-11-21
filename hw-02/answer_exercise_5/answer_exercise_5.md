@@ -23,4 +23,4 @@ k patch service nginx-service -p '{"spec":{"selector":{"version": "v2.0"}}}
 k describe service nginx-service | grep Selector
 ```
 
-#gif
+![Respuesta 5](https://user-images.githubusercontent.com/10359307/142750900-dd8af092-bd8a-4647-8bc0-de15d6ef8c10.gif)
