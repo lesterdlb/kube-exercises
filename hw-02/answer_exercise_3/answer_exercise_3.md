@@ -25,7 +25,7 @@ k get svc
 k get endpoints nginx-service1
 ```
 
-#imagen1
+![Respuesta 3 - 1](https://user-images.githubusercontent.com/10359307/142750814-3987f76c-e3f4-413d-b339-8ec6ffbcbf83.png)
 
 ```
 # Para acceder al servicio hay que utilizar la ip del clúster:
@@ -54,7 +54,7 @@ k apply -f service2.yml
 k get svc
 ```
 
-#imagen2
+![Respuesta 3 - 2](https://user-images.githubusercontent.com/10359307/142750820-f8a228a7-0efe-430e-b03a-2dde8fec9810.png)
 
 3. Servicio que expone un puerto especifico.
 
@@ -79,7 +79,7 @@ k apply -f service3.yml
 k get svc
 ```
 
-#imagen3
+![Respuesta 3 - 3](https://user-images.githubusercontent.com/10359307/142750824-e6a35740-4016-4a17-9edb-aab4fa856d92.png)
 
 ```
 # Se puede acceder al servicio con el puerto especificado:
