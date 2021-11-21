@@ -43,7 +43,7 @@ k get pods --show-labels
 k get rs -o wide
 ```
 
-#imagen1
+![Respuesta 2 - 1](https://user-images.githubusercontent.com/10359307/142750800-a1eeae8d-b035-4821-a45f-745814349c92.png)
 
 3. Escalar el número de réplicas a 10.
 
@@ -52,7 +52,7 @@ k scale --replicas=10 rs nginx-replica
 k get pods --show-labels
 ```
 
-imagen2
+![Respuesta 2 - 2](https://user-images.githubusercontent.com/10359307/142750803-3c0f8f26-6ded-4f42-973d-0f239d2af33d.png)
 
 4. Si necesito tener una réplica en cada uno de los nodos de Kubernetes,
    ¿qué objeto se adaptaría mejor?
